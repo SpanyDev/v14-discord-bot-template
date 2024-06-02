@@ -1,0 +1,17 @@
+{
+  "name": "axium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Spany",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "consola": "^3.2.3",
+    "discord.js": "^14.15.2",
+    "moment": "^2.30.1"
+  }
+}
