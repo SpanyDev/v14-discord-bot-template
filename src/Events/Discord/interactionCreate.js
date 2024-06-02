@@ -19,7 +19,7 @@ module.exports = {
         } catch (error) {
             consola.error(error);
             await interaction.reply({
-                embeds: [new EmbedBuilder().setTitle("An error occurred!").setDescription("An error occurred while executing this command!").build()],
+                embeds: [new EmbedBuilder().setTitle("An error occurred!").setDescription("An error occurred while executing this command!")],
             });
         }
 
