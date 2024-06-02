@@ -13,6 +13,7 @@ const path = require('path');
 const configFile = require('./config');
 const consola = require('consola');
 const AntiCrash = require('./Utils/Functions/AntiCrash.js');
+const { embed } = require('./Utils/Functions/embed.js');
 
 
 const client = new Client({
@@ -36,7 +37,7 @@ const client = new Client({
 client.commands = new Collection();
 client.context = new Collection();
 client.config = configFile;
-client.embed = EmbedBuilder;
+client.embed = embed;
 
 require("./Utils/slashCommandsLoader.js")(client);
 require("./Utils/eventsLoader.js")(client);
